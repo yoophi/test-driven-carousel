@@ -7,5 +7,5 @@
  * Visit http://www.pragmaticprogrammer.com/titles/tbreact for more book information.
 ***/
 module.exports = {
-  setupTestFrameworkScriptFile: './src/tests/jestSetup.js', // (1)
+  setupFilesAfterEnv: ['./src/tests/jestSetup.js'], // (1)
 };
